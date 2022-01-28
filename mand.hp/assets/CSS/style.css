@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;600&display=swap%27');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    
+    background: url("/assets/img/background2.jpg") no-repeat, center center;
+    background-size: cover ;
+    height: 92vh;
+
+}
+
+/**NAV BAR **/
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #23232e;
+    height: 8vh;
+    margin-bottom: 20px;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+}
+
+.nav-list li{
+    letter-spacing: 1px;
+    margin-left: 32px;
+}
+
+/**FIM NAV BAR **/
+
+
+/**INICIO**/
+
+.texto-principal{
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: rgb(89, 7, 143);
+ 
+}
+
+/**FIM INICIO**/
+
+.texto-titulo{
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: rgb(89, 7, 143);
+ 
+}
+/**PROJETOS**/
+
+/**FIM PROJETOS**/
+
+/**SOBRE **/
+
+main{
+    background-color: rgba(255, 255, 255, 0.158);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    width: 900px;
+    
+    margin: 0 auto;
+    border-radius: 8%;
+    box-shadow: 0px 0px 5px rgb(94, 94, 94);
+    padding: 50px;
+    
+}
+
+.principal{
+    display: flex;
+    justify-content: space-around;
+}
+
+.foto{
+    height: 300px;
+    border-radius: 4%;
+    box-shadow: 0px 0px 5px rgb(94, 94, 94);
+}
+
+.titulo{
+    text-align: left;
+    
+}
+
+.texto{
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+ 
+}
+
+.texto a{
+    text-decoration: none;
+    background: #23232e;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.texto p {
+   margin: 20px 0px;
+}
+
+.principal2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.foto2{
+    
+    height: 300px;
+    border-radius: 4%;
+    box-shadow: 0px 0px 5px rgb(94, 94, 94);
+}
+
+.titulo2{
+    text-align: right;
+}
+
+.texto2{
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    font-size: 14px; 
+}
+
+.texto2 a{
+    margin-left: 490px;
+    text-decoration: none;
+    background: #23232e;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.texto2 p {
+    text-align: right;
+   margin: 20px 0px;
+}
+
+/**FIM SOBRE **/
+
+
+
+/** CONTATO **/
+.formulario{
+    padding-top: 30px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.subtitulo{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+fieldset {
+    border: 0;
+}
+
+strong{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 5px;
+   
+}
+
+input, textarea {
+   width: 26em;
+   border: 1px solid #23232e;;
+   border-radius: 5px;
+   
+   
+}
+
+
+.botao{
+   border-style: none;
+    background-color: #6d6dfa;
+    cursor: pointer;
+    padding: 10px;
+    color: #fff;
+    box-shadow: 0px 0px 5px rgb(212, 212, 212);
+   align-items: center;
+   font-family: 'Poppins', sans-serif;
+
+}
+
+/** FIM CONTATO **/
+
+
+/** FOOTER **/
+
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #23232e;
+    height: 8vh;
+    margin-top: 20px;
+}
+
+.rodape h4{
+    color: #fff;
+}
+
+/** FIM FOOTER **/
